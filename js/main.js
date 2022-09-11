@@ -21,14 +21,14 @@ const lalaineSelect = document.querySelector("#lalaineBio");
 //Gia Enter Info Here
 let gia ={
     name: "Gia Linh Nguyen",
-    role: "///",
-    bio: "/////"
+    role: "UX/UI Design",
+    bio: "I do everything you ask for. User research, Design, Branding."
 };
 //Elif Enter Info Here
 let bravia ={
     name: "bravia Sarikaya",
-    role: "/////",
-    bio: "/////"
+    role: "Front-end developer | Visual design",
+    bio: "Bhavya is UX/UI designer, who is so much interested in learning project management and front-end developer. She contributed in research, branding & front-end development in the project."
 };
 //saroj Enter Info Here
 let saroj ={
@@ -52,9 +52,6 @@ let aaron ={
 //Lalaine Enter Info here
 let lalaine ={
 
-    name: "Lalaine",
-    role: "////",
-    bio: "////"
     name: "Lalaine S",
     role: "Video Producer",
     bio: "Lalaine (aka LiL) is excited to learn more! She looks forward to meeting everyone and making new friends."
