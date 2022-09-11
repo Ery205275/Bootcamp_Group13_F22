@@ -21,14 +21,14 @@ const lalaineSelect = document.querySelector("#lalaineBio");
 //Gia Enter Info Here
 let gia ={
     name: "Gia Linh Nguyen",
-    role: "UX/UI design",
-    bio: "I do everything you ask for. User research, Design, Branding. "
+    role: "///",
+    bio: "/////"
 };
-//Bhavya Enter Info Here
-let bhavya ={
-    name: "Bhavya Thakkar",
-    role: "Front-end developer | Visual design",
-    bio: "Bhavya is UX/UI designer, who is so much interested in learning project management and front-end developer. She contributed in research, branding & front-end development in the project."
+//Elif Enter Info Here
+let bravia ={
+    name: "bravia Sarikaya",
+    role: "/////",
+    bio: "/////"
 };
 //saroj Enter Info Here
 let saroj ={
@@ -39,8 +39,8 @@ let saroj ={
 
 let yuki ={
     name: "yuki ",
-    role: "/////",
-    bio: "/////"
+    role: "Front-End Designer",
+    bio: "Yuki has passion on developing design skills and apply with psychology knowledge. Fanshawe College offers her a great opportunity to develop related skills in interactive media design. Assisting in design works and website content for this project."
 };
 //Aaron Enter Info here
 let aaron ={
@@ -51,9 +51,9 @@ let aaron ={
 
 //Lalaine Enter Info here
 let lalaine ={
-    name: "Lalaine S",
-    role: "/////",
-    bio: "///// "
+    name: "Lalaine",
+    role: "////",
+    bio: "////"
 };
 
 
