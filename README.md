@@ -1,6 +1,4 @@
-<header>
-![Logo](/images/Bootcamp_g13_logo.jpg)
-</header>
+
 
 # Description
 
