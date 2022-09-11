@@ -1,4 +1,4 @@
-<header><img src=Bootcamp_g13-logo.jpg></header>
+<header><img src="./images/Bootcamp_g13-logo.jpg"></header>
 
 # Description
 
