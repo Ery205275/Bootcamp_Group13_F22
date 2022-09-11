@@ -1636,3 +1636,141 @@ color: #161C31;
     padding-left: 10%;
 }
 }
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.problem-para{
+  background-color: #161c31;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  scroll-behavior: smooth;
+}
+
+.problem-grid{
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-bottom: 64px;
+  box-sizing: border-box;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 24px;
+}
+
+.problem-grid-item{
+  text-align: center;
+  box-sizing: border-box;
+  Padding: 0px 48px 0px 48px;
+  border: none;
+  height: auto;
+  align-items: left;
+  scroll-behavior: smooth;
+ 
+}
+
+
+.problem-title{
+  
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: left;
+  /*padding-left: 48px;*/
+  padding-top: 16px;
+  padding-bottom: 32px;
+  color: #FFFFFF;
+  scroll-behavior: smooth;
+}
+.problem-heading{
+  font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight:500;
+font-size: 18px;
+line-height: 140%;
+text-align: left;
+color: #fff;
+opacity: 66%;
+scroll-behavior: smooth;
+}
+
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.problem-para{
+  background-color: #161c31;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  scroll-behavior: smooth;
+}
+
+.problem-grid{
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-bottom: 64px;
+  box-sizing: border-box;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 24px;
+}
+
+.problem-grid-item{
+  text-align: center;
+  box-sizing: border-box;
+  Padding: 0px 48px 0px 48px;
+  border: none;
+  height: auto;
+  align-items: left;
+  scroll-behavior: smooth;
+  
+}
+
+
+.problem-title{
+  
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: left;
+  /*padding-left: 48px;*/
+  padding-top: 16px;
+  padding-bottom: 32px;
+  color: #FFFFFF;
+  scroll-behavior: smooth;
+}
+.problem-heading{
+  font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight:500;
+font-size: 18px;
+line-height: 140%;
+text-align: left;
+color: #fff;
+opacity: 66%;
+scroll-behavior: smooth;
+}
