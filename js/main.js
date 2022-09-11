@@ -21,8 +21,8 @@ const lalaineSelect = document.querySelector("#lalaineBio");
 //Gia Enter Info Here
 let gia ={
     name: "Gia Linh Nguyen",
-    role: "///",
-    bio: "/////"
+    role: "UX/UI design",
+    bio: "I do everything you ask for. User research, Design, Branding. "
 };
 //Elif Enter Info Here
 let bravia ={
