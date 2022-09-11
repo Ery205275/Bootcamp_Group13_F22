@@ -51,9 +51,14 @@ let aaron ={
 
 //Lalaine Enter Info here
 let lalaine ={
+
     name: "Lalaine",
     role: "////",
     bio: "////"
+    name: "Lalaine S",
+    role: "Video Producer",
+    bio: "Lalaine (aka LiL) is excited to learn more! She looks forward to meeting everyone and making new friends."
+
 };
 
 
