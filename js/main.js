@@ -25,10 +25,10 @@ let gia ={
     bio: "/////"
 };
 //Elif Enter Info Here
-let bravia ={
-    name: "bravia Sarikaya",
-    role: "/////",
-    bio: "/////"
+let bhavya ={
+    name: "Bhavya Thakkar",
+    role: "Front-end developer | Visual design",
+    bio: "Bhavya is ux/ui designer, who is so much interested in learning project management and front-end developer. She contributed in research, branding & front end development in the project."
 };
 //saroj Enter Info Here
 let saroj ={
