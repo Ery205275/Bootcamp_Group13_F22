@@ -1,4 +1,5 @@
-<header><img src="images/Bootcamp_g13-logo.pdf"></header>
+<header><img src=Bootcamp_g13-logo.pdf></header>
+
 # Description
 
 The Realm is a young, creative and promising new agency that offers advertising services including user research, branding, UX/UI design, 
