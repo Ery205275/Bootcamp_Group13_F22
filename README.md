@@ -1,5 +1,5 @@
 <header>
-![](images/Bootcamp_g13_logo.jpg)
+![Logo](/images/Bootcamp_g13_logo.jpg)
 </header>
 
 # Description
