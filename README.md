@@ -1,4 +1,6 @@
-<header><img src="/images/Bootcamp_g13-logo.jpg"></header>
+<header>
+![](images/Bootcamp_g13_logo.jpg)
+</header>
 
 # Description
 
