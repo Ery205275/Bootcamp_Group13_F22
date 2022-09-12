@@ -50,8 +50,16 @@ let aaron = {
 };
 
 //Lalaine Enter Info here
+<<<<<<< HEAD
 let lalaine = {
 
+=======
+let lalaine ={
+
+    name: "Lalaine",
+    role: "////",
+    bio: "////"
+>>>>>>> 08cde200a5c7380c6c01e5f6c6b5a296d2bf9456
     name: "Lalaine S",
     role: "Video Producer",
     bio: "Lalaine (aka LiL) is excited to learn more! She looks forward to meeting everyone and making new friends."
