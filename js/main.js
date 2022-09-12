@@ -26,21 +26,21 @@ let gia = {
 };
 //Elif Enter Info Here
 let bravia = {
-    name: "bravia Sarikaya",
+    name: "Bravia Sarikaya",
     role: "Front-end developer | Visual design",
     bio: "Bhavya is UX/UI designer, who is so much interested in learning project management and front-end developer. She contributed in research, branding & front-end development in the project."
 };
 //saroj Enter Info Here
 let saroj = {
-    name: "saroj",
+    name: "Saroj",
     role: "Developer",
     bio: "saroj is currently studying Interactive Media Design at Fanshawe College, He is International Student from Nepal. Expect to reach to people as well as clients as a Developer. Helping in this assignment as a developer ."
 };
 
 let yuki = {
-    name: "yuki ",
+    name: "Yuki Ngai",
     role: "Front-End Designer",
-    bio: "Yuki has passion on developing design skills and apply with psychology knowledge. Fanshawe College offers her a great opportunity to develop related skills in interactive media design. Assisting in design works and website content for this project."
+    bio: "Yuki has passion on developing design skills and apply with psychology knowledge. Fanshawe College offers her a great opportunity to develop related skills in interactive media design. Assisting in design works, website content and fixing html, css problems for this project."
 };
 //Aaron Enter Info here
 let aaron = {
