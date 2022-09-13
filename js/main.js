@@ -53,13 +53,13 @@ let gia = {
 };
 //Elif Enter Info Here
 let bravia = {
-    name: "Bravia Sarikaya",
+    name: "Bhavya Thakkar",
     role: "Front-end developer | Visual design",
     bio: "Bhavya is UX/UI designer, who is so much interested in learning project management and front-end developer. She contributed in research, branding & front-end development in the project."
 };
 //saroj Enter Info Here
 let saroj = {
-    name: "Saroj",
+    name: "Saroj Sharma G",
     role: "Developer",
     bio: "saroj is currently studying Interactive Media Design at Fanshawe College, He is International Student from Nepal. Expect to reach to people as well as clients as a Developer. Helping in this assignment as a developer ."
 };
