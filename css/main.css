@@ -26,9 +26,9 @@
   padding-right: 48px;
    
 }
-nav{
+/* nav{
     cursor: pointer;
-}
+} */
 nav ul li
 {
   display: inline-block;
@@ -39,11 +39,13 @@ nav ul li
   font-weight: medium;
   margin: 20px 30px;
 }
+
 nav a
 {
   color: #fff;
   text-decoration: none;
 }
+
 nav a:hover
 {
   color: blue;
@@ -173,6 +175,7 @@ nav a:hover
   scroll-behavior: smooth;
 
 
+
 }
 
 
@@ -243,8 +246,10 @@ scroll-behavior: smooth;
 }
 
 .icon1{
+
   width: 84px;
   height: 84px;
+
 }
 
 .card-content{
@@ -1056,7 +1061,7 @@ textarea.input {
 }
 /*video controller*/
 #video-container{ 
-  display: flex;
+  display: grid;
   padding-top: 32px;
   padding-bottom: 32px;
   align-items: center;
@@ -1087,7 +1092,9 @@ margin: 15px;
 position: relative;
 overflow: hidden;
 text-align: center;
+cursor: pointer;
 }
+
 .card i{
 font-size: 40px;
 display: block;
@@ -1658,7 +1665,9 @@ color: #161C31;
   }
   iframe{
     width: fit-content;
-  }    .contact-form:before {
+  }    
+  
+  .contact-form:before {
       top: -13px;
       left: initial;
       right: 70px;
@@ -1677,6 +1686,7 @@ color: #161C31;
 }
 }
 
+
 .reveal{
   position: relative;
   transform: translateY(150px);
@@ -1687,4 +1697,5 @@ color: #161C31;
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
+
 }

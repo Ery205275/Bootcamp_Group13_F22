@@ -1,122 +1,181 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" media="screen" />
-    <link rel="stylesheet" href="css/main.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" media="screen">
+    <link rel="stylesheet" href="css/main.css" media="screen">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
-    <title>The Realm Main Page</title>
+    <title>The Realm Portflio Page</title>
   </head>
   <body>
+        
+        <!--navigation section-->
     <h1 class="hidden">header</h1>
-      <div class="sitecontainer">
-        <section class="header" id="header">
-          <div class="topsection">
-            <div class="logo">
-                <img src="images/White logo.svg " alt="">
-            </div>
-            <nav class="nav-bar">
-                <h3 class="hidden">Navigation</h3>
-                <ul class="menu">
-                  <li class="nav-link"><a href=""></a>Home</li>
-                  <li class="nav-link"><a href=""></a>About Us</li>
-                  <li class="nav-link"><a href=""></a>Work</li>
-                  <li class="nav-link"><a href=""></a>Contact</li>
-                </ul>
-            </nav>
-            <button type="submit" class="secondarybtn">Work With Us</button>
-            </div>
-            </section>
-        <section class="hero">
-          <div class="welcometext">
-            <h3 class="heroheading">Value-driven <br>Creative agency</h3>
-            <p class="herobody">The realm is the agency based in
-              Canada with the strategies, ideas, creative, and technology to connect with people today.</p>
-            <button type="submit" class="primarybtn">See our Work</button>
+    <div class="sitecontainer">
+      <section class="header" id="header">
+        <h2 class="hidden">Header</h2>
+        <div class="topsection">
+          <div class="logo">
+              <a href="main.html"><img src="images/White logo.svg " alt="Logo Pic"></a>
           </div>
-          <div class="heroimg">
-            <img src="images/Small image with just girl.png" alt="">
+          <nav class="nav-bar">
+              <h3 class="hidden">Navigation</h3>
+              <div>
+              <ul class="menu">
+                <li class="nav-link"><a href="main.html">Home</a></li>
+                <li class="nav-link"><a href="about.html">About Us</a></li>
+                <li class="nav-link"><a href="portfolio-main.html">Work</a></li>
+                <li class="nav-link"><a href="contact.html">Contact</a></li>
+              </ul>
+              </div>
 
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+          </nav>
+          <a href="contact.html"><button type="submit" class="secondarybtn">Work With Us</button></a>
           </div>
-        </section>
-        <section class="problem">
-            <div class="left">
-                <article class="left-info"></article>
+      </section>
+      </div>
+
+      <!--Hero section-->
+
+
+
+      <!--Problem section-->
+        
+      <section class="problem-para">
+        <h2 class="hidden">problem</h2>
+
+        <div class="problem-grid">
+      
+
+        <div clsss="problem-grid-item">
+          <div class="problem"><p class="problem-heading">Brand Name</p> <br>s
+          <h3 class="problem-title">Fido</h3>
+          </div>
+        </div>
+
+        <div clsss="problem-grid-item">
+          <div class="problem"><p class="problem-heading">Timeline</p> <br>
+          <h3 class="problem-title">6 hours</h3>
+          </div>
+        </div>
+        
+        <div clsss="problem-grid-item">
+          <div class="problem"><p class="problem-heading">Location</p> <br>
+          <h3 class="problem-title">Toronto, Ontario</h3>
+          </div>
+        </div>
+        
+        <div clsss="problem-grid-item">
+          <div class="problem"><p class="problem-heading">Industry</p> <br>
+          <h3 class="problem-title">Telecommunication, SaaS</h3>
+          </div>
+        </div>
+
+      </div>
+      </section>
+
+      <!--Portfolio section-->
+
+      <section class="portfolio" >
+          <h2 class="hidden">Portfolio</h2>
+
+        <div class="projects-grid">
+
+            <div class="projects-grid-item"> 
+              <img class="card-thumbnail" src="images/port1.JPG" width="520" heigt="400">
             </div>
-                <div class="right">
-                    <article class="right-info"></article>
-                </div>
-               
-        </section>
-        <section class="gallery">
-            <h3 class="hidden">Gallery</h3>
-           
-            <div class="gallery-Image"><img src="images/sample.jpg" alt="" srcset=""></div>
-            <div class="gallery-Image"><img src="images/sample.jpg" alt="" srcset=""></div>
-            <div class="gallery-Image"><img src="images/sample.jpg" alt="" srcset=""></div>
-            <div class="gallery-Image"><img src="images/sample.jpg" alt="" srcset=""></div>
-            <div class="gallery-Image"><img src="images/sample.jpg" alt="" srcset=""></div>
-            <div class="gallery-Image"><img src="images/sample.jpg" alt="" srcset=""></div>
-        </section>
-        <!--CTA section-->
- 
-       <section class="CTA-section">
+
+            <div class="projects-grid-item"> 
+              <img class="card-thumbnail" src="images/port2.JPG" width="520" heigt="400">
+            </div>
+
+            <div class="projects-grid-item"> 
+              <img class="card-thumbnail" src="images/port3.JPG" width="520" heigt="400">
+            </div>
+
+            <div class="projects-grid-item"> 
+              <img class="card-thumbnail" src="images/port4.JPG" width="520" heigt="400">
+            </div>
+
+          <div class="projects-grid-item"> 
+            <img class="card-thumbnail" src="images/port5.JPG" width="520" heigt="400">
+          </div>
+        
+        <div class="projects-grid-item"> 
+          <img class="card-thumbnail" src="images/port6.JPG" width="520" heigt="400">
+        </div>
+      
+
+      </div>
+      </section>
+
+      
+      
+      <section class="CTA-section">
         <div class="CTA">
           <h3 class="CTA-heading">Let's build your dream brand together</h3>
           <p class="CTA-body">The realm is the agency based in
             Canada with the strategies, ideas, creative, and technology to connect with people today.</p>
-          <button type="button" class="CTA-button">See our Work</button>
+        <a href="contact.html"><button type="button" class="CTA-button">Contact Us</button></a>
         </div>
         <div class="CTA-image">
-          <img src="images/CTA section.svg" alt="">
+          <img src="images/CTA section image.png" alt="">
         </div>
       </section>
+
     <!--footer section-->
-      <footer class="footer-container">
-        <div class="footerhero">
-          <div class="logos"><img  src="images/White logo.svg" alt="logos"></div>
-          <nav>
-            
-            <ul>
-              <li><a href="main.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="portfolio-main.html">Work</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="social-icons">
-              <a href="#">
-                <i class="fa fa-facebook"></i>
-              </a>
-              <a href="#">
-                <i class="fa fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i class="fa fa-instagram"></i>
-              </a>
-              <a href="#">
-                <i class="fa fa-linkedin"></i>
-              </a>
-              </div>
-          </nav>
+      <footer>
+        <div class="footersection">
+          <div class="logo">
+            <a href="main.html"><img src="images/White logo.svg " alt="Footer Logo"></a>
+          </div>
+          <nav class="footernav-bar">
+              <h3 class="hidden">Navigation</h3>
+              <ul>
+                <li class="footernav"><a href="main.html">Home</a></li>
+                <li class="footernav"><a href="about.html">About Us</a></li>
+                <li class="footernav"><a href="portfolio-main.html">Work</a></li>
+                <li class="footernav"><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://twitter.com/">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                  <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://ca.linkedin.com/">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                </div>
          
         </div>
         <div class="second-footer">
         <hr>
           
           <p class="end" >© 2022 TheRealm Inc. All rights reserved. </p>
-      </hr>
+      <hr>
     </div>
-          </footer>
-        
-        </div>
-      </section>
+    </footer>
+
       <script src="js/main.js"></script>
-    </body>
-  </html>
+
+</body>
+</html>
   
