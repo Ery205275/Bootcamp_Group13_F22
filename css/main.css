@@ -150,9 +150,6 @@ nav a:hover
   scroll-behavior: smooth;
 
 }
-.heroimg{
-    height: auto;
-  }
 
 
   .primarybtn{
@@ -659,6 +656,26 @@ padding-top: 48px;
 }
 
 
+.primarybtn{
+
+  padding-left: 32px;
+  padding-right: 32px;
+  gap: 9.41px; 
+  top: 300px;
+  background: #00CBF3;
+  border-radius: 48px;
+  border: none;
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: auto;
+  margin-top: 24px;
+  scroll-behavior: smooth;
+
+cursor: pointer;
+
+}
 
 
 
@@ -1175,6 +1192,10 @@ li.active a, li.active a:hover {
 /*Tab-Protfolio*/
 
 @media only screen and (max-width: 900px) {
+  .heroimg img
+  {
+    height: fit-content;
+  }
   .menu {
       
     display: flex;
@@ -1227,12 +1248,14 @@ li.active a, li.active a:hover {
   height: auto;
   padding-left:90px;
   
+  
 }
 .heroheading{
   font-size: 48px;
 }
 .herobody{
   font-size: 16px;
+  padding-bottom: 0px;
 }
 .sectionheading{
   font-size: 24px;
@@ -1679,7 +1702,8 @@ color: #161C31;
 
   }
   #mobile {
-    display:block;
+    display: block;
+    min-width: auto;
   }
   video{  
     width: 400px;
@@ -1688,6 +1712,11 @@ color: #161C31;
 }
 }
 
+@media screen and (max-width: 375px){
+#mobile{
+  display: block;
+}
+}
 
 .reveal{
   position: relative;
