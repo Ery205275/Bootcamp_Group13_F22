@@ -1109,11 +1109,13 @@ margin-bottom: 10px;
 }
 h5{
 color: #161C31;
-font-size: 23px;
+font-family: 'Poppins','sans-serif' ;
+font-size: 24px;
 margin-bottom: 15px;
 }
 .pra p{
 color: #161C31A8;
+font-family: 'Manrope', 'sans-serif';
 font-size: 16px;
 line-height: 27px;
 margin-bottom: 25px;
